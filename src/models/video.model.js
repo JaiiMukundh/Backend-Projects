@@ -37,4 +37,6 @@ const videoSchema = new mongoose.Schema({
 
 },{timestamps:true});
 
+videoSchema.plugin(mongooseAggregatePaginate); //helps to split the total data into handlable pages
+
 export const Video = mongoose.model('Video', videoSchema);
