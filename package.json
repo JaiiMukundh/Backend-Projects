@@ -1,0 +1,22 @@
+{
+  "name": "yt_clone",
+  "version": "1.0.0",
+  "description": "production grade backend for video media player",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "JaiiMukundh",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.4",
+    "nodemon": "^3.1.11"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.0"
+  }
+}
